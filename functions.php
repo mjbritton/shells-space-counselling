@@ -29,3 +29,11 @@ function fix_svg()
     echo '';
 }
 add_action('admin_head', 'fix_svg');
+
+// post title shortcode
+function post_title_shortcode()
+{
+    global $post;
+    return $post->post_title;
+}
+add_shortcode('post_title', 'post_title_shortcode');
