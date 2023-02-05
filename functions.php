@@ -49,8 +49,8 @@ if (!function_exists('custom_post_type')) {
         $labels = array(
             'name'                  => _x('Testimonials', 'Post Type General Name', 'testimonials'),
             'singular_name'         => _x('Testimonial', 'Post Type Singular Name', 'testimonials'),
-            'menu_name'             => __('Post Types', 'testimonials'),
-            'name_admin_bar'        => __('Post Type', 'testimonials'),
+            'menu_name'             => __('Testimonials', 'testimonials'),
+            'name_admin_bar'        => __('Testimonial', 'testimonials'),
             'archives'              => __('Item Archives', 'testimonials'),
             'attributes'            => __('Item Attributes', 'testimonials'),
             'parent_item_colon'     => __('Parent Item:', 'testimonials'),
